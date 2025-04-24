@@ -168,7 +168,7 @@
 
 ### 推荐资料
 - 《Java 编程思想》
-- 《Java 核心技术 卷 I》
+- 《Java 核心技术》
 - 《Effective Java》
 - Java 官方文档：https://docs.oracle.com/javase/8/docs/api/
 
