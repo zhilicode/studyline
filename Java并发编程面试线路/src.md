@@ -9,7 +9,7 @@
 
 **目标：理解并发编程的本质与 Java 创建线程的方式**
 
-### 1. 并发与并行的区别
+### 1. 并发与并行的区别 [学习线程基础与创建](https://gostudynow.cn/home/detail/376)
 - 并发：逻辑同时执行（单核交替）
 - 并行：物理同时执行（多核）
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 第二阶段：线程生命周期与调度
+## 第二阶段：线程生命周期与调度  [学习线程调度控制](https://gostudynow.cn/home/detail/376)
 
 **目标：掌握线程状态、调度流程与线程常见 API 的作用**
 
@@ -43,7 +43,7 @@
 
 ---
 
-## 第三阶段：synchronized 与锁机制
+## 第三阶段：synchronized 与锁机制 [学习synchronized锁机制](https://gostudynow.cn/home/detail/378)
 
 **目标：掌握 Java 内置锁的底层实现与优化方式**
 
@@ -62,7 +62,7 @@
 
 ---
 
-## 第四阶段：volatile 与 Java 内存模型（JMM）
+## 第四阶段：volatile 与 Java 内存模型（JMM）[学习JMM内存模型](https://gostudynow.cn/home/detail/132)
 
 **目标：理解可见性、有序性、原子性和 Java 内存模型的设计初衷**
 
@@ -81,7 +81,7 @@
 
 ---
 
-## 第五阶段：显示锁与 Lock 框架
+## 第五阶段：显示锁与 Lock 框架 [学习线程显示锁Lock](https://gostudynow.cn/home/detail/379)
 
 **目标：理解 Lock 接口与不同实现类的特性与适用场景**
 
@@ -95,13 +95,13 @@
 ### 3. Condition 条件变量
 - 代替传统的 Object.wait/notify
 
-### 4. 面试高频题
+### 4. 面试高频题 [学习高频面试系列5](https://gostudynow.cn/home/detail/382)
 - ReentrantLock 和 synchronized 的区别？
 - Condition 和 wait/notify 有什么不同？
 
 ---
 
-## 第六阶段：线程通信与并发工具类
+## 第六阶段：线程通信与并发工具类 [学习并发工具类](https://gostudynow.cn/home/detail/380)
 
 **目标：掌握线程间协调与常用工具类使用方式**
 
@@ -116,13 +116,13 @@
 - Exchanger：线程数据交换
 - Phaser：多阶段控制器
 
-### 3. 面试题解析
+### 3. 面试题解析 [学习高频面试系列6](https://gostudynow.cn/home/detail/383)
 - CountDownLatch 和 CyclicBarrier 的区别？
 - Semaphore 应用场景？
 
 ---
 
-## 第七阶段：并发容器与原子类
+## 第七阶段：并发容器与原子类 [学习并发容器和原子类](https://gostudynow.cn/home/detail/381)
 
 **目标：理解线程安全集合与 CAS 原子操作机制**
 
@@ -134,7 +134,7 @@
 - AtomicInteger、AtomicLong、AtomicReference
 - 底层实现：CAS（Compare-And-Swap）
 
-### 3. 面试重点
+### 3. 面试重点 [学习高频面试系列6](https://gostudynow.cn/home/detail/383)
 - HashMap 和 ConcurrentHashMap 的区别？
 - CAS 是什么？ABA 问题如何解决？
 
@@ -157,7 +157,7 @@
 - 拒绝策略：AbortPolicy、DiscardPolicy、CallerRunsPolicy、DiscardOldestPolicy
 - 自定义线程工厂 ThreadFactory
 
-### 3. 面试题重点
+### 3. 面试题重点 [学习高频面试系列6](https://gostudynow.cn/home/detail/383)
 - 线程池如何防止 OOM？
 - 线程池适合什么业务场景？
 - 为什么不推荐使用 Executors 创建线程池？
@@ -167,16 +167,28 @@
 ## 附录：推荐资料与面试技巧
 
 ### 高频面试问题汇总
-1. Java 中如何实现线程通信？
+1. Java 中如何实现线程通信？[学习高频面试系列5（1-10）](https://gostudynow.cn/home/detail/382)
 2. synchronized 和 Lock 有什么区别？
-3. volatile 能替代 synchronized 吗？
-4. ThreadLocal 的作用与原理？
-5. 如何设计一个线程安全的计数器？
-6. 线程池的核心参数你是怎么配置的？
-7. 什么是死锁？怎么排查和避免？
-8. ConcurrentHashMap 为什么不需要加锁？
-9. CAS 的底层实现与常见问题？
-10. Thread.join 底层如何实现等待？
+3. synchronized 的底层实现？volatile 和 synchronized 区别？
+4. 锁升级过程是怎样的？
+5. 什么是可重入锁？
+6. ThreadLocal 的作用与原理？
+7. 如何设计一个线程安全的计数器？
+8. 线程池的核心参数你是怎么配置的？
+9. 什么是死锁？怎么排查和避免？
+10. HashMap 和 ConcurrentHashMap 的区别？
+11. ConcurrentHashMap 为什么不需要加锁？[学习高频面试系列6（11-21）](https://gostudynow.cn/home/detail/383)
+12. CAS 的底层实现与常见问题？ABA 问题如何解决？
+13. Thread.join 底层如何实现等待？
+14. synchronized 的底层实现？ 
+15. ReentrantLock 和 synchronized 的区别？ 
+16. Condition 和 wait/notify 有什么不同？ 
+17. CountDownLatch 和 CyclicBarrier 的区别？ 
+18. Semaphore 应用场景？
+19. 线程池如何防止 OOM？ 线程池适合什么业务场景？ 
+20. 为什么不推荐使用 Executors 创建线程池？ 
+21. AQS的内部原理是什么？
+22. 虚拟线程？[学习虚拟线程](https://gostudynow.cn/home/detail/133)
 
 ---
 
