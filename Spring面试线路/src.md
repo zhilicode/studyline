@@ -1,4 +1,4 @@
-[ 2025.4.28更新 ]
+[ 2025.4.29更新 ]
 ## Spring 面试学习线路（八大阶段）
 
 ### 目标：全面掌握 Spring 核心模块与运行机制，强化面试中常见底层问题的理解与表达能力。
@@ -105,19 +105,19 @@
 
 **目标：掌握 Web 层 MVC 架构与请求处理流程**
 
-### 1. 核心组件
+### 1. 核心组件 [学习核心组件](https://gostudynow.cn/home/detail/396)
 - DispatcherServlet（前端控制器）
 - HandlerMapping、HandlerAdapter
 - ViewResolver、ModelAndView
 
-### 2. 请求流程
+### 2. 请求流程 [学习请求流程](https://gostudynow.cn/home/detail/397)
 - 请求 → DispatcherServlet → HandlerMapping → Controller → ViewResolver → 响应
 
-### 3. 常用注解
+### 3. 常用注解 [学习常用注解](https://gostudynow.cn/home/detail/398)
 - `@RequestMapping`、`@GetMapping`、`@PostMapping`
 - `@RequestParam`、`@PathVariable`、`@ResponseBody`
 
-### 4. 面试考点
+### 4. 面试考点 [学习高频面试系列2（7-12）](https://gostudynow.cn/home/detail/402)
 - Spring MVC 的请求流程？
 - `@Controller` 和 `@RestController` 有何区别？
 
@@ -127,15 +127,15 @@
 
 **目标：理解 Spring 的 SPI 扩展机制和上下文刷新过程**
 
-### 1. Spring 扩展机制
+### 1. Spring 扩展机制 [学习Spring扩展](https://gostudynow.cn/home/detail/399)
 - BeanFactoryPostProcessor、BeanPostProcessor
 - ApplicationListener、ApplicationContextAware
 - FactoryBean 接口机制
 
-### 2. 容器启动刷新流程（重点）
+### 2. 容器启动刷新流程（重点）[学习容器启动流程](https://gostudynow.cn/home/detail/400)
 - prepareRefresh() → obtainFreshBeanFactory() → invokeBeanFactoryPostProcessors() → registerBeanPostProcessors() → finishRefresh()
 
-### 3. 面试高频
+### 3. 面试高频 [学习高频面试系列1（1-6）](https://gostudynow.cn/home/detail/401)
 - BeanFactory 和 ApplicationContext 区别？
 - Spring 容器初始化过程？
 
@@ -146,13 +146,13 @@
 **目标：提升表达能力，总结常见高频题并强化回答能力**
 
 ### 高频问题清单
-1. Spring Bean 的生命周期是怎样的？
+1. Spring Bean 的生命周期是怎样的？ [学习高频面试系列1（1-6）](https://gostudynow.cn/home/detail/401)
 2. Spring 如何解决循环依赖？
 3. 什么是 AOP？Spring 是如何实现的？
 4. `@Autowired` 注入原理是什么？
 5. BeanFactory 和 ApplicationContext 的区别？
 6. Spring 容器初始化过程？
-7. 事务失效的场景有哪些？
+7. 事务失效的场景有哪些？ [学习高频面试系列2（7-12）](https://gostudynow.cn/home/detail/402)
 8. Spring 如何处理多线程下的事务？
 9. Spring MVC 的请求处理流程？
 10. `@Controller` 和 `@RestController` 有何区别
